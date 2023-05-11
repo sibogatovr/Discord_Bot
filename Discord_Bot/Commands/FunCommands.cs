@@ -14,7 +14,7 @@ namespace Discord_Bot.Commands
         [Command("message")]
         public async Task TestCommand(CommandContext ctx)
         {
-            await ctx.Channel.SendMessageAsync("Hello World");
+            await ctx.Channel.SendMessageAsync("Hello World!");
         }
 
         [Command("embedmessage")]
